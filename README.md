@@ -1,68 +1,54 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Front-end Developer Test
+Using either Vue (preferably) or React framework, build a star wars directory using [SWAPI](https://swapi.co/), which has all api endpoints required for the application.
 
-## Available Scripts
+## Website layout
+We've created a design for you to use to build your site. Layout files can be found [here](https://scene.zeplin.io/project/5d6d23a6683e59b8beab5dcd)
+- this should only serve as a guide for what your final site should try as much as possible to replicate
+- the images visible in the design above for Characters/Starships/Planets cannot (unfortunately) be gotten from the [SWAPI](https://swapi.co/), as it doesn't provide images in it's responses. Because of this, we've provided an assets folder with images you can use instead. 
 
-In the project directory, you can run:
+**Note:** The assets provided (with the exception of the logo and hero-banner) are simply placeholder images to help your site look/feel more complete in the _'Popular Starships'_ and _'Starwars Characters'_ pages. We do **not** expect you to programmatically map characters/ships to their respective images in those pages. We do however expect you to try to replicate the _home page_ as much as possible.
 
-### `npm start`
+## General requirements
+A single page application using either Vue (preferably) or React featuring:
+- A visually pleasing experience, you don’t have to be a designer but you must have put an effort into making this look good
+- A "componentized" approach, split your code into small building blocks, showcase your clean architecture skills.
+- CSS can be written using PostCSS, SASS, LESS or similar higher-level language
+- Responsive design
+  
+## Functional requirements
+- User can view a list of people (humans & robots), list item should contain full name, birth year and gender
+- User can view a list of planets, list item should contain name, temperature and population.
+- User can view a list of starships, list item should contain name, model and cargo capacity.
+- User can see full details of selected person, planet or starship, you can ignore data containing links in the JSON response.
+- For each listing, user can search using name to filter the list.
+- User should be able to filter based on gender in the people section (male, female, robot)
+- Display data with pagination
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Nice to have
+- Good sense of design 👌🏾
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+## What we're looking for
+- Using high-quality existing libraries or small amounts of custom code
+- Production grade code (clean, maintainable, reusable code)
+- A detailed commit history shows your progress towards your final implementation
+- Polish and visual creativity
+- Pride in craftsmanship
 
-### `npm test`
+## Extra Bonus Points
+The following items will earn you bonus points. They are not requirements, the challenge is 100% completeable without them. 
+- Use Vue which is the preferred framework
+- Include animations & micro-interactions 👌🏾
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Time Duration
+Maximum of 7 days
 
-### `npm run build`
+## Submission
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
+When you feel you're ready to submit do please:
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
+- Share a link to your github repo as well as your live hosted site with a member of the product org team; or whoever first contacted you
+- include several screenshots of each of your pages in a separate `/screenshots` folder in the root of your repo
+- make sure your repo is set to public otherwise we won't be able to see all your hard work!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+Finally, we'd like to say *Good luck! And have fun!*
