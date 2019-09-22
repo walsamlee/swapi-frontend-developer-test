@@ -1,0 +1,50 @@
+.header-bg {
+  display: flex;
+  flex-direction: column;
+  height: 400px;
+  margin: 0;
+  padding: 30px;
+  background-image: url('../../images/hero-banner.jpg');
+  background-repeat: no-repeat, repeat;
+  background-color: #000000;
+  color: #ffffff;
+
+  &__logo {
+    margin-bottom: 70px;
+
+    &--img {
+      width: 100px;
+      height: 50px;
+      display: flex;
+      flex-direction: column;
+    }
+  }
+
+  &__rider {
+    width: 255px;
+    margin: 0 auto;
+    padding: 20px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-bottom: 1px solid #ffffff;
+
+    &--logo {
+      width: 100px;
+      height: 50px;
+      display: flex;
+      flex-direction: column;
+    }
+
+    &--text {
+      margin: 5px 0;
+      padding: 0 0 0 15px;
+    }
+
+    &--sub {
+      width: 360px;
+      margin: 0 auto;
+      line-height: 1.6;
+    }
+  }
+}
