@@ -6,11 +6,13 @@ import './header.scss';
 const Header = () => (
   <div className="header-bg">
     <div className="header-bg__logo">
-      <img
-        className="header-bg__logo--img"
-        src="https://res.cloudinary.com/walsam/image/upload/v1569138453/logo.png"
-        alt="logo"
-      />
+      <a href={`http://${window.location.host}`}>
+        <img
+          className="header-bg__logo--img"
+          src="https://res.cloudinary.com/walsam/image/upload/v1569138453/logo.png"
+          alt="logo"
+        />
+      </a>
     </div>
     <div>
       <div className="header-bg__rider">

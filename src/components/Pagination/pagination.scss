@@ -1,0 +1,18 @@
+.pagination {
+  display: inline;
+  margin: 20px 0;
+  padding: 10px 0;
+
+  &__link {
+    padding: 10px 20px;
+    font-size: 14px;
+    color: #000000;
+    background: #ffffff;
+    text-decoration: none;
+  }
+
+  &__link:hover {
+    color: #ffffff;
+    background: #000000;
+  }
+}
