@@ -73,6 +73,32 @@ const Card = (props) => {
       </Link>
     );
   }
+
+  if (props.type === 'starships') {
+    const searched = props.api.split('/');
+    const url = `${props.url}/${searched[5]}`;
+
+    return (
+      <Link className="starships" to={url}>
+        <div className="starships__card">
+          <div className="starships__card--picture">
+            <img
+              className="starships__card--picture__img"
+              src={props.image}
+              alt="card"
+            />
+          </div>
+          <div className="starships__card--text">
+            <h3 className="starships__card--text__title">{props.title}</h3>
+            <div className="starships__card--text__summary">
+              <p>{props.model}</p>
+              <p>{props.capacity}</p>
+            </div>
+          </div>
+        </div>
+      </Link>
+    );
+  }
 };
 
 export default Card;
