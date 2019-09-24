@@ -11,14 +11,14 @@ const Homepage = () => (
     <div className="dashboard__sect-1">
       <Card
         type="homepage"
-        url="/people?page=1"
+        url="/people"
         title="People"
         image="https://res.cloudinary.com/walsam/image/upload/v1569147145/character-3.jpg"
         summary="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
       />
       <Card
         type="homepage"
-        url="/"
+        url="/planet"
         title="Planets"
         image="https://res.cloudinary.com/walsam/image/upload/v1569147185/planet-2.jpg"
         summary="Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
