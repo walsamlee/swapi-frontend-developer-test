@@ -7,7 +7,6 @@ import './homepage.scss';
 
 const Homepage = () => (
   <div className="dashboard">
-    {console.log('this', window.location.search)}
     <div className="dashboard__sect-1">
       <Card
         type="homepage"
@@ -27,8 +26,8 @@ const Homepage = () => (
     <div className="dashboard__sect-1">
       <Card
         type="homepage"
-        url="/"
-        title="Spaceships"
+        url="/starship"
+        title="Starships"
         image="https://res.cloudinary.com/walsam/image/upload/v1569147163/starship-3.jpg"
         summary="Duis aute irure dolor in reprehenderit in voluptate velit esse cillum."
       />

@@ -45,7 +45,6 @@ class Planet extends Component {
   }
 
   render() {
-    console.log('Planets: ', this.state.data)
     return (
       this.state.loading ? <Loader /> :
         <div>
