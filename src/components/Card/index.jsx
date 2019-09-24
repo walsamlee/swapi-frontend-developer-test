@@ -48,6 +48,31 @@ const Card = (props) => {
       </Link>
     );
   }
+  if (props.type === 'planets') {
+    const searched = props.api.split('/');
+    const url = `${props.url}/${searched[5]}`;
+
+    return (
+      <Link className="planets" to={url}>
+        <div className="planets__card">
+          <div className="planets__card--picture">
+            <img
+              className="planets__card--picture__img"
+              src={props.image}
+              alt="card"
+            />
+          </div>
+          <div className="planets__card--text">
+            <h3 className="planets__card--text__title">{props.title}</h3>
+            <div className="planets__card--text__summary">
+              <p>{props.climate}</p>
+              <p>{props.population}</p>
+            </div>
+          </div>
+        </div>
+      </Link>
+    );
+  }
 };
 
 export default Card;
